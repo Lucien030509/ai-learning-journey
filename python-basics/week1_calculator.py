@@ -1,22 +1,21 @@
-# Week 1: Simple calculator
-# 处理除零错误
+# ===== 这就是你写的第一个程序：计算器 =====
+# 先运行一遍看看效果，然后我会逐行解释
 
-def add(a, b):
-    return a + b
+print("===== 我的计算器 =====")
+print("输入两个数字，我帮你算")
 
-def subtract(a, b):
-    return a - b
+# 让用户输入两个数字
+num1 = float(input("请输入第一个数字: "))
+num2 = float(input("请输入第二个数字: "))
 
-def multiply(a, b):
-    return a * b
+# 加减乘除
+print(f"{num1} + {num2} = {num1 + num2}")
+print(f"{num1} - {num2} = {num1 - num2}")
+print(f"{num1} * {num2} = {num1 * num2}")
+print(f"{num1} ** {num2} = {num1 ** num2}")
 
-def divide(a, b):
-    try:
-        return a / b
-    except ZeroDivisionError:
-        return "Error: Cannot divide by zero"
-
-# Test
-print(add(10, 5))       # 15
-print(divide(10, 0))    # Error message
-print(divide(10, 2))    # 5.0
+# 除法要特别处理：不能除以 0
+if num2 != 0:
+    print(f"{num1} / {num2} = {num1 / num2}")
+else:
+    print("不能除以 0 ！")
