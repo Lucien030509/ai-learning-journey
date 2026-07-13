@@ -10,6 +10,7 @@ attempts = 0    # 记录猜了几次
 
 # while 循环：只要没猜对就一直猜
 while guess != secret:
+    print("现在开始新一轮猜测")
     guess = int(input("输入你猜的数字: "))  # int() 把输入变成整数
     attempts = attempts + 1
 
