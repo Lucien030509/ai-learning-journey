@@ -22,8 +22,14 @@ frontier-AI literacy.
 ## Repository structure
 
 ```text
-python-basics/   # Small Python exercises and weekly review programs
+python-basics/   # Python foundations: one folder per week
+data-analysis/   # NumPy, Pandas, cleaning, and visualisation
+sql-practice/    # SQL and database-design practice
+ml-projects/     # Classical machine-learning projects
+dl-projects/     # Later maths, PyTorch, and LLM work
 notes/           # Learning notes and the active roadmap
 ```
 
-More folders are added only when a real course or project needs them.
+Each future folder has a short README that explains its purpose. Exercise
+`.py` files are created during lessons so that the code remains your own
+practice.
