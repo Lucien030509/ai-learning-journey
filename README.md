@@ -19,6 +19,9 @@ The active, version-controlled roadmap is in
 the path from beginner to an applied AI engineer with strong foundations and
 frontier-AI literacy.
 
+The current verified learning state and the rule for moving between weeks are
+in [notes/learning-progress.md](notes/learning-progress.md).
+
 ## Repository structure
 
 ```text
