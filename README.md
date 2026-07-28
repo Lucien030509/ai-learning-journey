@@ -16,8 +16,12 @@ data work, and progressively more complete AI projects.
 
 The active, version-controlled roadmap is in
 [notes/ai-career-roadmap.md](notes/ai-career-roadmap.md). It is designed for
-the path from beginner to an applied AI engineer with strong foundations and
-frontier-AI literacy.
+the path from beginner to an AI application, data, or ML engineer, while
+building long-term foundations for research engineering and technical
+leadership in frontier-AI teams.
+
+The project-quality checklist is in
+[notes/portfolio-standards.md](notes/portfolio-standards.md).
 
 The current verified learning state and the rule for moving between weeks are
 in [notes/learning-progress.md](notes/learning-progress.md).
