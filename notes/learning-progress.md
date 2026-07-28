@@ -28,8 +28,9 @@
 | Week 2：函数与集合 | 已完成 | `def`、参数、`return`、列表、字典、`len()`、`append()`、`split()`、`upper()`、`enumerate()`、平均分计算与课程追踪 | 无 |
 | Week 3：文件与错误 | 已完成 | 读取 CSV、识别缺失值、文本读写、`try / except`、稳定文件路径 | 无 |
 | Week 4：面向对象 | 已完成 | class、object、attribute、method、self、初始化与方法返回值 | 无 |
-| Week 5：NumPy | 下一周 | 无 | 可以开始 |
-| Week 6 以后：Pandas、SQL、机器学习、深度学习 | 未开始 | 无 | 按路线依次进入，不提前当作已完成 |
+| Week 5：NumPy | 已完成 | 数组、shape、索引、向量化、统计、axis、布尔筛选 | 无 |
+| Week 6：Pandas | 下一周 | 无 | 可以开始 |
+| Week 7 以后：数据清洗、SQL、机器学习、深度学习 | 未开始 | 无 | 按路线依次进入，不提前当作已完成 |
 
 ## 每周完成门槛
 
@@ -64,4 +65,4 @@
 
 ## 当前唯一下一步
 
-开始 Week 5 的第一个小练习：创建并观察 NumPy 数组。
+开始 Week 6 的第一个小练习：用 Pandas 创建并观察表格数据。
