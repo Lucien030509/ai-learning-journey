@@ -1,8 +1,11 @@
 # Week 4: Object-Oriented Programming
 
-You will create these files during lessons:
+Completed practice:
 
-- `bank_account.py`: a small class with data and actions.
-- `oop_review.py`: a short independent review.
+- `bank_account.py`: a class with owner and balance attributes, plus deposit
+  and withdraw methods.
+- `oop_review.py`: an independent Course class with initialization and a
+  describe method.
 
-Key ideas: class, object, attribute, method, and `__init__`.
+Key ideas: class, object, attribute, method, `self`, `__init__`, and
+returning True or False from a method.

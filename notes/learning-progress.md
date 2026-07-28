@@ -27,8 +27,9 @@
 | Week 1：控制流程 | 已完成 | 变量、输入、条件、`while`、`for`、`range()`、`continue`、嵌套循环 | 无 |
 | Week 2：函数与集合 | 已完成 | `def`、参数、`return`、列表、字典、`len()`、`append()`、`split()`、`upper()`、`enumerate()`、平均分计算与课程追踪 | 无 |
 | Week 3：文件与错误 | 已完成 | 读取 CSV、识别缺失值、文本读写、`try / except`、稳定文件路径 | 无 |
-| Week 4：面向对象 | 下一周 | 无 | 可以开始 |
-| Week 5 以后：NumPy、Pandas、SQL、机器学习、深度学习 | 未开始 | 无 | 按路线依次进入，不提前当作已完成 |
+| Week 4：面向对象 | 已完成 | class、object、attribute、method、self、初始化与方法返回值 | 无 |
+| Week 5：NumPy | 下一周 | 无 | 可以开始 |
+| Week 6 以后：Pandas、SQL、机器学习、深度学习 | 未开始 | 无 | 按路线依次进入，不提前当作已完成 |
 
 ## 每周完成门槛
 
@@ -63,4 +64,4 @@
 
 ## 当前唯一下一步
 
-开始 Week 4 的第一个小练习：理解类（class）如何把相关的数据和行为组织在一起。
+开始 Week 5 的第一个小练习：创建并观察 NumPy 数组。
