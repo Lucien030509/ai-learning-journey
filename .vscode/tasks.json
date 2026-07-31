@@ -2,17 +2,23 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run SQL practice",
+      "label": "Run current SQL practice",
       "type": "shell",
       "command": "bash",
       "args": [
-        "${workspaceFolder}/sql-practice/week-09-sql-basics/run_queries.sh"
+        "${fileDirname}/run.sh"
       ],
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": []
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared",
+        "clear": true
+      }
     }
   ]
 }
