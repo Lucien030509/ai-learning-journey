@@ -1,6 +1,6 @@
 # 学习进度与切换规则
 
-最后核对：2026-07-29。
+最后核对：2026-08-03。
 
 ## 进度判断的证据顺序（必须遵守）
 
@@ -32,9 +32,9 @@
 | Week 6：Pandas | 已完成 | DataFrame、Series、列选择、筛选、CSV 读取、NaN、缺失统计与 describe | 无 |
 | Week 7：数据清洗 | 已完成 | 使用 `pd.to_numeric(errors="coerce")` 统一分数类型、识别并删除重复记录、按 `score` 删除缺失记录、重排行号、保存清洗后的 CSV、计算平均分 | 无 |
 | Week 8：可视化 | 已完成 | 柱状图、标题与坐标轴标签、柱顶数值标签、固定纵轴范围、保存 PNG、从图中得出可核对结论 | 无 |
-| Week 9：SQL 基础 | 已完成（本次提交将确认） | SQLite 数据库与表、`SELECT`、`WHERE`、`ORDER BY`、`AVG()`、`COUNT(*)`、`GROUP BY`、`HAVING`、`JOIN`、`LEFT JOIN`；能解释 `WHERE` 与 `HAVING` 的区别，并亲自修改和运行查询 | 本次 Git 提交并推送后进入 Week 10 |
-| Week 10：数据库设计 | 已完成（本次提交将确认） | 设计学生、课程、选课三表；主键、外键、组合主键、多对多关系、`NOT NULL`、`CHECK` 约束、缺失成绩与规范化；能解释并亲自修改 schema 和连接查询 | 本次 Git 提交并推送后进入 Week 11 |
-| Week 11：Python 与 SQL | 下一周 | 无 | 用 Python 连接数据库并运行查询 |
+| Week 9：SQL 基础 | 已完成并已推送 | SQLite 数据库与表、`SELECT`、`WHERE`、`ORDER BY`、`AVG()`、`COUNT(*)`、`GROUP BY`、`HAVING`、`JOIN`、`LEFT JOIN`；能解释 `WHERE` 与 `HAVING` 的区别，并亲自修改和运行查询 | 无 |
+| Week 10：数据库设计 | 已完成并已推送 | 设计学生、课程、选课三表；主键、外键、组合主键、多对多关系、`NOT NULL`、`CHECK` 约束、缺失成绩与规范化；能解释并亲自修改 schema 和连接查询 | 无 |
+| Week 11：Python 与 SQLite | 已完成（待本次 Git 提交） | Python 的 `connection`、`cursor`、参数化查询、`fetchone()`、`fetchall()`、`INSERT`、`commit()`、`None`/`NULL`、`IntegrityError`；已亲自验证正常查询、查无学生、空成绩显示与重复选课保护 | 审核并提交本周文件 |
 | Week 12 以后：机器学习、深度学习 | 未开始 | 无 | 按路线依次进入，不提前当作已完成 |
 
 ## 每周完成门槛
@@ -70,4 +70,4 @@
 
 ## 当前唯一下一步
 
-完成 Week 10 的 Git 提交并推送，然后开始 Week 11：Python 与 SQL。
+审核并提交 Week 11 的 Python 与 SQLite 练习；推送完成后再开始下一学习单元。
